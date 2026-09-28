@@ -44,12 +44,12 @@ st.divider()
 
 if st.button('Predict claim risk',  type = 'primary'):
     input_dict = {
-        'subscription_lenght':subscription_length,
+        'subscription_length':subscription_length,
         'vehicle_age': vechicle_age,
         'customer_age':customer_age,
         'region_density':region_density,
         'is_parking_sensors': int(is_parking_sensors),
-        'is_front_fog_light': int(is_front_fog_light),
+        'is_front_fog_lights': int(is_front_fog_light),
         'is_brake_assist': int(is_brake_assist),
         'is_power_steering': int(is_power_steering),
         'is_driver_seat_height_adjustable': int(is_driver_seat_height_adjustable),
